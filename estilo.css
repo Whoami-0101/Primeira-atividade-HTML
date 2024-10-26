@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(37, 28, 28);
+    font-size: 100%;
+}
+
+h1{
+    color: rgb(194, 168, 22);
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    size: 100%;
+}
+
+p{
+    color: white;
+}
+img{
+ width: 100%;
+ margin: 1%;
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    color: white;
+}
+.esquerda{
+    flex-grow: 1;
+    margin: 1%;
+}
+.esquerda2{
+    flex-grow: 1;
+    margin: 1%;
+}
+.centro{
+    flex-grow: 1;
+    margin: 1%;
+}
+.direita{
+    flex-grow: 1;
+    background: rgb(90, 90, 90);
+    margin: 1%;
+}
+.direita2{
+    flex-grow: 1;
+    background: rgb(90, 90, 90);
+    margin: 1%;
+}
